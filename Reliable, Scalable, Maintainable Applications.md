@@ -6,3 +6,6 @@
 ## Scalability
 - Ability to cope with increased load
 - 
+
+## Maintainability
+- Follows convention, standard that can be understood by future devs
