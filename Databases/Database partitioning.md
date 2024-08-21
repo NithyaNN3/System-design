@@ -5,8 +5,18 @@ Why?
 
 ## Horizontal and Vertical Partitioning
 **Horizontal**
+- Used when there are a large number of rows
+- most common
+- same columns in every partition
+- Full table scans are limited to full partition scans - can add localised indexes
+- Partitioning BY range, list or hash
+- Range partitions are based on dates and distance, etc
+- List partitions are based on states, countries, sales regions, products, etc
+- Hash partitions are based on numeric values or strings, when no logical groupings are obvious. Use of modulus determines which partition the data goes to.
+- Downside to hash partitions is that you can't make new partitions afterwards
 
 **Vertical** 
+- Used with very wide tables (esp. with CLOBs or BLOBs)
 - Increases query performance (full table scans)
 - Reduce access times: Any large tables can be split into their own tables
 - Restrict access sometimes (like sensitive data)
