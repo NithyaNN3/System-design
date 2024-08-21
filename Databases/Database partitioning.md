@@ -16,11 +16,11 @@ Why?
 - Downside to hash partitions is that you can't make new partitions afterwards
 
 **Vertical** 
-- Used with very wide tables (esp. with CLOBs or BLOBs)[https://www.ibm.com/docs/en/informix-servers/12.10?topic=types-clob-blob-data]
+- Used with very wide tables esp. with [CLOBs or BLOBs](https://www.ibm.com/docs/en/informix-servers/12.10?topic=types-clob-blob-data)
 - Increases query performance (full table scans)
 - Reduce access times: Any large tables can be split into their own tables
 - Restrict access sometimes (like sensitive data)
 - TRIGGERS direct INSERTs to specific partitions
 - VPs arent used widely
 
-Partitioning with (PostgreSQL)[https://www.postgresql.org/docs/9.1/ddl-partitioning.html]
+Partitioning with [PostgreSQL](https://www.postgresql.org/docs/9.1/ddl-partitioning.html)
