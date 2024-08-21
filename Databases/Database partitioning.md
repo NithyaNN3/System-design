@@ -24,3 +24,8 @@ Why?
 - VPs arent used widely
 
 Partitioning with [PostgreSQL](https://www.postgresql.org/docs/9.1/ddl-partitioning.html)
+
+## Partitioning Steps
+1) Make a partition function: in SQL server for example, CREATE PARTITION FUNCTION [myDateRange] (datetime)
+2) Use a partitioning scheme: basically what columns are to be used, etc
+3) Create the partitioned table based on the scheme
