@@ -17,5 +17,14 @@
 ## Maintainability
 - Follows convention, standard that can be understood by future devs
 - Maintaining could be fixing bugs, maintaining operability, fixing failures, modification to new use cases
-- 
+- **Operations** - can involve monitoring of systems, RCAs of faults or maintaining security
+- **Good operability**:
+    1) Visibility on system working
+    2) Good support for automation and integration with tools
+    3) Avoiding dependency on individual machines
+    4) Good documentation and default system behaviour
+    5) Predicitability and self-healing system features
+- Reduce complexity but not at the cost of functionality
+- Good abstraction helps with adaptability
+
 
