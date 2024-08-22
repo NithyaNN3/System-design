@@ -16,5 +16,6 @@
 
 ## Maintainability
 - Follows convention, standard that can be understood by future devs
+- Maintaining could be fixing bugs, maintaining operability, fixing failures, modification to new use cases
 - 
 
