@@ -7,3 +7,9 @@
 - preference for free and open source software
 - specialized query operations not supported by a relational model
 - to avoid the restrictiveness of a relational schema
+### Object Relational Mismatch
+- if data is in relational tables, a translation layer is needed between objects in the application code and database model - 'impedance mismatch'
+- Object relational mapping frameworks reduce amount of differences between two models
+- JSON has some flexibility since all the data is in one place than a multi table schema and reduces impedance mismatch to a degree
+
+### Many to One and May to Many Relationships
