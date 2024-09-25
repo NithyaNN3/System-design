@@ -1,7 +1,7 @@
 ### Partial matching 
-> use /<word>/ as a value. Example: 
+- use /<word>/ as a value. Example: 
 
-```ruby
+```
 // Query
 db.users.find({ name: /like/ })
 
