@@ -1,6 +1,6 @@
 ### Partial matching 
 > use /<word>/ as a value. Example: 
-```
+````
 // Query
 db.users.find({ name: /like/ })
 
@@ -11,4 +11,4 @@ db.users.find({ name: /like/ })
     name: 'One for like and comment',
   },
 ]
-```
+````
