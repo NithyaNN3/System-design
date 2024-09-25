@@ -19,4 +19,4 @@ db.users.find({ name: /like/ })
 - Performs a function on multiple documents
 - groups values from multiple documents together
 - aggregation pipelines to perform multiple sequence of tasks on data 
-
+- essentially running queries in a sequence - result of one query is used for another query and so on - done in different stages
