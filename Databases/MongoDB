@@ -1,3 +1,4 @@
+## Other Concepts - 
 ### Partial matching 
 - use /<word>/ as a value. Example: 
 
@@ -13,4 +14,9 @@ db.users.find({ name: /like/ })
   },
 ]
 ```
+
+### Aggregations on Compass
+- Performs a function on multiple documents
+- groups values from multiple documents together
+- aggregation pipelines to perform multiple sequence of tasks on data 
 
