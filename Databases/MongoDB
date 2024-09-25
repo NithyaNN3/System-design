@@ -1,0 +1,14 @@
+### Partial matching 
+> use /<word>/ as a value. Example: 
+```
+// Query
+db.users.find({ name: /like/ })
+
+// Result
+;[
+  {
+    email: 'one@email.com',
+    name: 'One for like and comment',
+  },
+]
+```
