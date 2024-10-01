@@ -30,3 +30,6 @@
 - Document DBs have one thing in common with network DBs which is that they store nested records within their parent records instead of in a separate table
 - document references are like foreign keys which enable JOINs in document DBs
 - not strict on schema 
+
+
+
