@@ -29,7 +29,12 @@
 ### Document model
 - Document DBs have one thing in common with network DBs which is that they store nested records within their parent records instead of in a separate table
 - document references are like foreign keys which enable JOINs in document DBs
-- not strict on schema 
+- not strict on schema
+- Embedding data (as a sub document in a document in MongoDB) is a solution to avoid redundancies - like if movie documents have the same directors so there would be the same sub document of director information within each movie document of the movies hes made
+- Embedding introduces redundancy so the solution would be to use **referencing**
+- ![Capture](https://github.com/user-attachments/assets/14ef2e6e-b764-4c0a-9959-21d963a05acf)
+
+
 
 
 
