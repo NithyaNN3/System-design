@@ -34,7 +34,9 @@
 - Embedding introduces redundancy so the solution would be to use **referencing**
 - ![Capture](https://github.com/user-attachments/assets/14ef2e6e-b764-4c0a-9959-21d963a05acf)
 
-
+## Query languages for data
+- You can only set how you want data to be organised or how the results should look, but the **Query Optimiser** takes care of how to execute various parts of the query, i.e., how to use JOINS and indexes.
+-  
 
 
 
